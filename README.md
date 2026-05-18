@@ -3,7 +3,7 @@
 
 A DINOv2 ViT-Small backbone further pre-trained on optic disc crops from fundus images via self-supervised token reconstruction.
 
-Download `reconstruct_392_010eps_0.221448.pth` from https://github.com/stephanmkonig/DiscFoundGlobal/releases/tag/Model.
+Download `DiscFoundGlobal.pth` from https://github.com/stephanmkonig/DiscFoundGlobal/releases/tag/Model.
 
 ## Installation
 
