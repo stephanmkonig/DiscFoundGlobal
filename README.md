@@ -40,7 +40,6 @@ img = transform(img).unsqueeze(0)        # [1, 3, 392, 392]
 
 with torch.inference_mode():
     tokens = encoder.forward_features(img)   # [1, 789, 384]
-    embedding = tokens.mean(dim=1)           # [1, 384]  global average pool
 ```
 
 `forward_features` returns 789 tokens: 1 CLS token, 4 register tokens, and 784 patch tokens (28×28 patches).
