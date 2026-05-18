@@ -1,4 +1,4 @@
-[SSL_Model_README.md](https://github.com/user-attachments/files/27969577/SSL_Model_README.md)
+
 # DiscFoundGlobal Backbone
 
 A DINOv2 ViT-Small backbone further pre-trained on optic disc crops from fundus images via self-supervised token reconstruction.
