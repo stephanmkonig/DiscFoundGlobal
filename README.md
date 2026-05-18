@@ -1,7 +1,7 @@
 
-# DiscFoundGlobal Backbone
+# DiscFoundGlobal
 
-A DINOv2 ViT-Small backbone further pre-trained on optic disc crops from fundus images via self-supervised token reconstruction.
+A DINOv2 ViT-Small model further pre-trained on optic disc crops from fundus images via self-supervised token reconstruction.
 
 Download `DiscFoundGlobal.pth` from https://github.com/stephanmkonig/DiscFoundGlobal/releases/tag/Model.
 
