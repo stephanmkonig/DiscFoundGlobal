@@ -74,14 +74,3 @@ with torch.inference_mode():
 ```
 
 `forward_features` returns 789 tokens: 1 CLS token, 4 register tokens, and 784 patch tokens (28×28 patches).
-
-## Model details
-
-| | |
-|---|---|
-| Architecture | ViT-Small (`vit_small_patch14_reg4_dinov2`) |
-| Starting weights | DINOv2 pretrained on LVD-142M |
-| Input size | 392 × 392 |
-| Output | 789 tokens × 384 dims |
-| Normalization | mean=0.5, std=0.5 |
-| Pretraining task | Token reconstruction (masked patch prediction in feature space) |
