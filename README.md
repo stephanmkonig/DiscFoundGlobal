@@ -14,7 +14,7 @@ Download `DiscFoundGlobal.pth` from https://github.com/stephanmkonig/DiscFoundGl
 import timm
 import torch
 model = timm.create_model('vit_small_patch14_reg4_dinov2', img_size=(392, 392), num_classes=0)
-state_dict = torch.load('retfoundgreen_ssl_statedict.pth', weights_only=True)
+state_dict = torch.load('DiscFoundGlobal.pth', weights_only=True)
 model.load_state_dict(state_dict)
 model.eval()
 ```
